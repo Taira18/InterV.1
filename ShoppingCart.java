@@ -50,7 +50,7 @@ public class ShoppingCart implements Cart {
         for(int i = 0;i<index.size();i++){
         System.out.print("Item: " + index.get(i).getDescription() + "\n" + "Quantity: " + index.get(i).getQuantity() + "\n" + "Unit Price: $" + index.get(i).getUnitPrice() +"\n" + "Total Price: $" +index.get(i).getQuantity() * index.get(i).getUnitPrice() + "\n" + "\n");
         }
-        return "\n" + "Total: " + psum + "\n" + "Tax: " + tax +"\n" + "Shipping: " + ship +"\n" + "Grand total: " + sum;
+        return "Total: " + psum + "\n" + "Tax: " + tax +"\n" + "Shipping: " + ship +"\n" + "Grand total: " + sum;
     }
  
 }
